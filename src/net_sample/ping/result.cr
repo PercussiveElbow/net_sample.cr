@@ -21,7 +21,7 @@ module NetSample::Ping
       @valid
     end
 
-    abstract def message : String
+    # abstract def message : String
   end
 
   abstract class ICMPReceived < Result
